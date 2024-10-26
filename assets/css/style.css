@@ -1,14 +1,12 @@
 
 * {
-  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-  
+  font-family: Helvetica, Arial, sans-serif;  
 }
 
 body{
-  position: relative;
   text-align: center;
   background-color: lemonchiffon;
-  margin: 0;
+  margin:auto
 }
 
 header{
@@ -19,9 +17,9 @@ header{
   position:fixed;
   top: 0;
   right: 0;
-  height: 60px;
+  height: 40px;
   width: 100%;
-  line-height: 60px;
+  line-height: 10px;
   text-align: right;
 
 }
@@ -36,23 +34,22 @@ li{display: inline;
   
 }
 main{color:darkblue;
-  position: relative;
-  margin-top: 100px;
-  padding: 60px 0;
+  position:relative;
+  top: 20px;
+
+  
 }
 .soon {
   color: white;
   background-color: #25614F;
-}
-.divider{
-  background-color: darkblue;
+  border-bottom: 10px solid darkblue;
+  
 }
 
-.contact{
-  position: relative
-
-  height: 400px;
-  margin: 2px 400px;
+.contactus{
+  position: relative;
+  margin: 5% 25%;
+  padding: 10px;
   border: 15px solid black;
 }
 
@@ -61,7 +58,7 @@ form{
   text-align: justify;
 border: solid #ffa500;
 border-radius: 20px;
-margin: 0px 50px;
+margin: 5% 5%;
 padding: 5px;
 }
 
